@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Recursive&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #232830;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 30px 8%;
+
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.right-logo {
+  display: flex;
+}
+
+.right-logo li {
+  display: inline-block;
+  position: relative;
+  left: 0;
+}
+
+.hero {
+  text-align: center;
+  padding: 30px;
+}
+
+.hero figcaption {
+  color: #ff7575;
+  font-family: Recursive;
+  font-size: 71px;
+  font-style: italic;
+  line-height: normal;
+}
+
+.hero p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 29px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Recursive;
+  font-size: 27px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.logo-cat li {
+  display: inline-block;
+  padding: 0px 2px;
+}
+
+.cat-list li {
+  display: inline-block;
+  color: #909090;
+  padding: 5px;
+}
+
+.card-group {
+  justify-content: right;
+}
+
+.ul {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  grid-template-rows: auto;
+  text-align: justify;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.ul li {
+  width: 90%;
+  height: auto;
+  margin-top: 2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.ul li figure img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 3%;
+}
+
+.ul li figcaption {
+  color: #0f1217;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: justify;
+  padding: 5%;
+}
+
+.ul li p {
+  color: #0f1217;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 5%;
+}
+
+.page {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.page .page-next,
+.page-prev {
+  color: #909090;
+  font-family: Recursive;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.page .page-list li {
+  display: inline-block;
+  padding: 0px 1rem;
+  color: #909090;
+  text-align: center;
+  font-family: Recursive;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.page .page-list li span {
+  border-top: solid 5px #ff7575;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.footer .left-foot p {
+  color: #fff;
+  font-family: recursive;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.footer .left-foot p span {
+  border-radius: 5px;
+  background: #4699e0;
+  padding: 6px;
+}
+
+.footer .right-foot p {
+  color: #fff;
+  font-family: recursive;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.footer .right-foot p span {
+  border-radius: 5px;
+  background: #4699e0;
+  padding: 6px;
+}
+
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 545px) {
+  html {
+    font-size: 55%;
+  }
+}
